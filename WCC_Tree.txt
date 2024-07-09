@@ -1,0 +1,225 @@
+.
+├── license.txt
+├── MANIFEST.in
+├── __pycache__
+│   ├── setup.cpython-310.pyc
+│   └── setup.cpython-38.pyc
+├── README.md
+├── requirements.txt
+├── setup.py
+├── test_sites
+│   ├── apps.txt
+│   ├── current_site.txt
+│   ├── languages.txt
+│   └── test_site
+│       └── site_config.json
+├── WCC_Tree.txt
+├── webshop-01-connector
+│   ├── after_install.py
+│   ├── api.py
+│   ├── api.py-chatgpt
+│   ├── api.py.save
+│   ├── config
+│   │   ├── desktop.py
+│   │   ├── docs.py
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── desktop.cpython-310.pyc
+│   │   │   ├── desktop.cpython-38.pyc
+│   │   │   ├── docs.cpython-310.pyc
+│   │   │   ├── docs.cpython-38.pyc
+│   │   │   ├── __init__.cpython-310.pyc
+│   │   │   ├── __init__.cpython-38.pyc
+│   │   │   ├── webshop-01-connector.cpython-310.pyc
+│   │   │   └── webshop-01-connector.cpython-38.pyc
+│   │   └── webshop-01-connector.py
+│   ├── exceptions.py
+│   ├── fixtures
+│   │   └── custom_field.json
+│   ├── hooks.py
+│   ├── hooks.py.save
+│   ├── hooks.py.save.1
+│   ├── __init__.py
+│   ├── modules.txt
+│   ├── patches
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-310.pyc
+│   │   │   └── __init__.cpython-38.pyc
+│   │   └── V1_0
+│   │       ├── create_weight_uom.py
+│   │       ├── __init__.py
+│   │       ├── __pycache__
+│   │       │   ├── create_weight_uom.cpython-310.pyc
+│   │       │   ├── create_weight_uom.cpython-38.pyc
+│   │       │   ├── __init__.cpython-310.pyc
+│   │       │   ├── __init__.cpython-38.pyc
+│   │       │   ├── set_variant_id.cpython-310.pyc
+│   │       │   └── set_variant_id.cpython-38.pyc
+│   │       └── set_variant_id.py
+│   ├── __pycache__
+│   │   ├── after_install.cpython-310.pyc
+│   │   ├── after_install.cpython-38.pyc
+│   │   ├── api.cpython-310.pyc
+│   │   ├── api.cpython-38.pyc
+│   │   ├── exceptions.cpython-310.pyc
+│   │   ├── exceptions.cpython-38.pyc
+│   │   ├── hooks.cpython-310.pyc
+│   │   ├── hooks.cpython-38.pyc
+│   │   ├── __init__.cpython-310.pyc
+│   │   ├── __init__.cpython-38.pyc
+│   │   ├── sync_customers.cpython-310.pyc
+│   │   ├── sync_customers.cpython-38.pyc
+│   │   ├── sync_orders.cpython-310.pyc
+│   │   ├── sync_orders.cpython-38.pyc
+│   │   ├── sync_products.cpython-310.pyc
+│   │   ├── sync_products.cpython-38.pyc
+│   │   ├── utils.cpython-310.pyc
+│   │   ├── utils.cpython-38.pyc
+│   │   ├── webhooks.cpython-310.pyc
+│   │   ├── webhooks.cpython-38.pyc
+│   │   ├── webshop-01-requests.cpython-310.pyc
+│   │   └── webshop-01-requests.cpython-38.pyc
+│   ├── sync_customers.py
+│   ├── sync_orders.py
+│   ├── sync_orders.py-08-11-22
+│   ├── sync_orders.py-09-11-22
+│   ├── sync_orders.py-24-08-23
+│   ├── sync_orders.py.bak
+│   ├── sync_orders.py-bak-14-08-23
+│   ├── sync_orders.py-bak-v.2-14-08-23
+│   ├── sync_orders.py-GH
+│   ├── sync_orders.py.save
+│   ├── sync_orders.py-test
+│   ├── sync_orders.py-thomasbak
+│   ├── sync_products.py
+│   ├── sync_products.py-10-11-22
+│   ├── templates
+│   │   ├── generators
+│   │   │   ├── __init__.py
+│   │   │   └── __pycache__
+│   │   │       ├── __init__.cpython-310.pyc
+│   │   │       └── __init__.cpython-38.pyc
+│   │   ├── __init__.py
+│   │   ├── pages
+│   │   │   ├── __init__.py
+│   │   │   └── __pycache__
+│   │   │       ├── __init__.cpython-310.pyc
+│   │   │       ├── __init__.cpython-38.pyc
+│   │   │       └── __init__.py
+│   │   └── __pycache__
+│   │       ├── __init__.cpython-310.pyc
+│   │       └── __init__.cpython-38.pyc
+│   ├── translations
+│   │   └── de.csv
+│   ├── utils.py
+│   ├── webhooks.py
+│   ├── webshop-01-connector
+│   │   ├── custom
+│   │   │   ├── item_attribute.json
+│   │   │   ├── item.json
+│   │   │   └── sales_order.json
+│   │   ├── doctype
+│   │   │   ├── __init__.py
+│   │   │   ├── item_product_category
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── item_product_category.json
+│   │   │   │   ├── item_product_category.py
+│   │   │   │   └── __pycache__
+│   │   │   │       ├── __init__.cpython-310.pyc
+│   │   │   │       ├── __init__.cpython-38.pyc
+│   │   │   │       ├── item_product_category.cpython-310.pyc
+│   │   │   │       └── item_product_category.cpython-38.pyc
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-310.pyc
+│   │   │   │   └── __init__.cpython-38.pyc
+│   │   │   ├── webshop-01-config
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-310.pyc
+│   │   │   │   │   ├── __init__.cpython-38.pyc
+│   │   │   │   │   ├── test_webshop-01-config.cpython-310.pyc
+│   │   │   │   │   ├── test_webshop-01-config.cpython-38.pyc
+│   │   │   │   │   ├── webshop-01-config.cpython-310.pyc
+│   │   │   │   │   └── webshop-01-config.cpython-38.pyc
+│   │   │   │   ├── test_data
+│   │   │   │   │   ├── webshop-01-customer.json
+│   │   │   │   │   ├── webshop-01-item.json
+│   │   │   │   │   └── webshop-01-order.json
+│   │   │   │   ├── test_webshop-01-config.js
+│   │   │   │   ├── test_webshop-01-config.py
+│   │   │   │   ├── webshop-01-config.js
+│   │   │   │   ├── webshop-01-config.js-old
+│   │   │   │   ├── webshop-01-config.json
+│   │   │   │   ├── webshop-01-config.json_working_23-09-23
+│   │   │   │   ├── webshop-01-config.js_working_23-09-23
+│   │   │   │   ├── webshop-01-config.py
+│   │   │   │   └── webshop-01-config.py_working_23-09-23
+│   │   │   ├── webshop-01-log
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-310.pyc
+│   │   │   │   │   ├── __init__.cpython-38.pyc
+│   │   │   │   │   ├── test_webshop-01-log.cpython-310.pyc
+│   │   │   │   │   ├── test_webshop-01-log.cpython-38.pyc
+│   │   │   │   │   ├── webshop-01-log.cpython-310.pyc
+│   │   │   │   │   ├── webshop-01-log.cpython-38.pyc
+│   │   │   │   │   ├── webshop-01-shopify_log.cpython-310.pyc
+│   │   │   │   │   └── webshop-01-shopify_log.cpython-38.pyc
+│   │   │   │   ├── test_webshop-01-log.js
+│   │   │   │   ├── test_webshop-01-log.py
+│   │   │   │   ├── webshop-01-log.js
+│   │   │   │   ├── webshop-01-log.json
+│   │   │   │   ├── webshop-01-log_list.js
+│   │   │   │   ├── webshop-01-log.py
+│   │   │   │   └── webshop-01-shopify_log.py
+│   │   │   ├── webshop-01-so_status
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-310.pyc
+│   │   │   │   │   ├── __init__.cpython-38.pyc
+│   │   │   │   │   ├── webshop-01-so_status.cpython-310.pyc
+│   │   │   │   │   └── webshop-01-so_status.cpython-38.pyc
+│   │   │   │   ├── webshop-01-so_status.json
+│   │   │   │   └── webshop-01-so_status.py
+│   │   │   ├── webshop-01-tax_account
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-310.pyc
+│   │   │   │   │   ├── __init__.cpython-38.pyc
+│   │   │   │   │   ├── webshop-01-tax_account.cpython-310.pyc
+│   │   │   │   │   └── webshop-01-tax_account.cpython-38.pyc
+│   │   │   │   ├── webshop-01-tax_account.json
+│   │   │   │   └── webshop-01-tax_account.py
+│   │   │   ├── webshop-01-tax_rule
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-310.pyc
+│   │   │   │   │   ├── __init__.cpython-38.pyc
+│   │   │   │   │   ├── webshop-01-tax_rule.cpython-310.pyc
+│   │   │   │   │   └── webshop-01-tax_rule.cpython-38.pyc
+│   │   │   │   ├── webshop-01-tax_rule.json
+│   │   │   │   └── webshop-01-tax_rule.py
+│   │   │   └── webshop-01-warehouses
+│   │   │       ├── __init__.py
+│   │   │       ├── __pycache__
+│   │   │       │   ├── __init__.cpython-310.pyc
+│   │   │       │   ├── __init__.cpython-38.pyc
+│   │   │       │   ├── webshop-01-warehouses.cpython-310.pyc
+│   │   │       │   └── webshop-01-warehouses.cpython-38.pyc
+│   │   │       ├── webshop-01-warehouses.json
+│   │   │       └── webshop-01-warehouses.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── __init__.cpython-310.pyc
+│   │       └── __init__.cpython-38.pyc
+│   └── webshop-01-requests.py
+└── webshop-01-connector.egg-info
+    ├── dependency_links.txt
+    ├── not-zip-safe
+    ├── PKG-INFO
+    ├── requires.txt
+    ├── SOURCES.txt
+    └── top_level.txt
+
+40 directories, 182 files

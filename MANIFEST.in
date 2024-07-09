@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include webshop-01-connector *.css
+recursive-include webshop-01-connector *.csv
+recursive-include webshop-01-connector *.html
+recursive-include webshop-01-connector *.ico
+recursive-include webshop-01-connector *.js
+recursive-include webshop-01-connector *.json
+recursive-include webshop-01-connector *.md
+recursive-include webshop-01-connector *.png
+recursive-include webshop-01-connector *.py
+recursive-include webshop-01-connector *.svg
+recursive-include webshop-01-connector *.txt
+recursive-exclude webshop-01-connector *.pyc
